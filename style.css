@@ -1,10 +1,15 @@
-/* Style the navigation bar */
 .hero {
-  background-image: url(./images/jomacsbg.jpg);
   background-size: cover;
   position: relative;
   height: 100vh;
 }
+
+.body {
+  background-image: url(./images/jomacsbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .navbar {
   display: flex; /* Makes items appear in a row */
   justify-content: space-between; /* Spreads items left, center, right */
@@ -19,14 +24,12 @@
   margin-top: 0;
 }
 
-/* Style the logo */
 .logo {
   font-size: 20px;
   font-weight: bold;
   color: rgb(176, 238, 141);
 }
 
-/* Style the navigation links */
 .nav-links {
   list-style: none;
   display: flex; /* Makes the links appear in a row */
@@ -48,7 +51,6 @@
   font-size: 16px;
 }
 
-/* Style the button */
 .cta-button {
   background-color: #6239e1;
   color: white;
