@@ -1,0 +1,74 @@
+/* Style the navigation bar */
+.hero {
+  background-image: url(./images/jomacsbg.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.navbar {
+  display: flex; /* Makes items appear in a row */
+  justify-content: space-between; /* Spreads items left, center, right */
+  align-items: center; /* Centers items vertically */
+  padding: 15px 30px;
+  border: none;
+  color: rgb(29, 26, 26);
+  border-radius: 10rem;
+  border: none;
+  background-color: #eff1f9;
+}
+
+/* Style the logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(176, 238, 141);
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex; /* Makes the links appear in a row */
+  gap: 20px; /* Adds space between links */
+  padding: 0;
+}
+
+.nav-links li:hover {
+  background-color: aquamarine;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: rgb(59, 34, 34);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Style the button */
+.cta-button {
+  background-color: #6239e1;
+  color: white;
+  padding: 10px 15px;
+  border: 10px;
+  cursor: pointer;
+  border-radius: 5rem;
+  margin: 10px;
+  size: ;
+}
+
+.text1 {
+  font-size: 60px;
+  color: #141d38;
+  margin: 0px;
+}
+
+.text2 {
+  font-size: 60px;
+  color: #5484ff;
+}
+
+.text3 {
+  color: #737887;
+}
